@@ -1,0 +1,6 @@
+DET_SOURCE_DIR: 'G:/My Drive/AI_CITY/Code2/datasets/vid2img/'               # after split video into frame
+REID_MODEL: 'reid_model/resnet101_ibn_a_2.pth'                              # pretrained weight
+REID_BACKBONE: 'resnet101_ibn_a'                                            # name of backbone
+DET_IMG_DIR: 'G:/My Drive/AI_CITY/Code2/datasets/patches'                   # patches image
+DATA_DIR: 'G:/My Drive/AI_CITY/Code2/datasets/reid1/'                      # save result
+REID_SIZE_TEST: [384, 128]

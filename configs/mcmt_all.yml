@@ -1,0 +1,9 @@
+CHALLENGE_DATA_DIR: 'G:/My Drive/AI_CITY/Code2/datasets/AIC23/'            # data of contest
+DET_SOURCE_DIR: 'G:/My Drive/AI_CITY/Code2/datasets/vid2img/'                                   # tách các video thành từng frame ảnh
+DATA_DIR: 'G:/My Drive/AI_CITY/Code2/datasets/patches/'                                         # ảnh các xe sau khi đi qua detector được cắt ra
+REID_SIZE_TEST: [384, 128]    # 384, 256
+# ROI_DIR: 'G:/My Drive/AI CITY/Code2/datasets/AIC22_Track1_MTMC_Tracking/train/S01/'
+USE_RERANK: True
+USE_FF: True
+SCORE_THR: 0.1
+MCMT_OUTPUT_TXT: 'track1.txt'

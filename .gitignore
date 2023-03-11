@@ -1,0 +1,20 @@
+/.idea/
+*.pyc
+wandb/
+*/__pycache__
+*.so
+*.pt
+datasets/*
+src/
+.vscode/*
+reid/reid_model/*
+detector/yolov7/weights/*
+tracker/BoT_SORT/color_hist.pkl
+tracker/top1/color_hist.pkl
+*.pkl
+desktop.ini
+
+# except name of folder
+!datasets/.gitkeep
+!reid/reid_model/.gitkeep
+!detector/yolov7/weights/.gitkeep
